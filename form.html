@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <title>Desafio 2</title>
+
+</head>
+
+<div class="container">
+    <h2 class="title-from-form"> Cadastro </h2>
+    <div class="div-from-separation">
+        <label for="name" id="name"> Nome </label>
+        <input type="text" name="for-name" autocomplete="name" required class="inputs">
+    </div>
+
+    <div class="div-from-separation">
+        <label for="email"> Email </label>
+        <input type="email" name="email" autocomplete="email" required class="inputs">
+    </div>
+
+    <div class="div-from-separation">
+        <label for="years-old"> Idade </label>
+        <input type="number" name="years-old" required min="12" class="inputs">
+    </div>
+    <div class="div-from-separation">
+        <label for="date"> Data de Nascimento </label class="inputs">
+        <input type="date" name="date">
+    </div>
+
+    <div class="div-from-separation">
+        <label for="account"> Onde você possui Conta:</label>
+        <input type="checkbox" class="account">
+        <label for="Instagram" class="account"> Instagram </label>
+
+        <input type="checkbox" class="account">
+        <label for="Facebook" class="account"> Facebook </label>
+
+        <input type="checkbox" class="account">
+        <label for="Youtube" class="account"> Youtube </label>
+    </div>
+
+    <div class="div-from-separation">
+        <label for="Sex"> Sexo </label>
+        <input type="radio" name="sex" class="sex">
+        <label for="Sex" class="sex"> Masculino </label>
+        <input type="radio" name="sex" class="sex">
+        <label for="Sex" class="sex"> Feminino </label>
+    </div>
+
+    <div class="div-from-separation">
+        <label for="color"> Cor dos olhos </label>
+        <input type="color" name="color">
+    </div>
+
+    <div class="div-from-separation">
+        <label for="profile-pícture"> Foto do Perfil </label>
+        <input type="file" accept="image/*" name="profile-picture" required>
+    </div>
+
+    <div class="div-from-separation">
+        <label for="tel"> Telefone </label>
+        <input type="tel" inputmode="numeric" name="tel" required class="inputs">
+    </div>
+
+    <div class="div-from-separation">
+        <label for="Link-Instagram"> Link do Perfil do Instagram </label>
+        <input type="url" name="Link-Instagram" class="inputs">
+    </div>
+
+    <div class="div-from-separation">
+        <label for="password"> Senha </label>
+        <input type="password" minlength="6" maxlength="8" required name="password" class="inputs">
+    </div>
+
+
+    <button type="submit" class="button-sub"> Enviar </button>
+    <button type="reset" class="button-reset"> Limpar Dados </button>
+
+
+</div>
+
+</body>
+
+</html>

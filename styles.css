@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    display: block;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+title {
+    display: none;
+}
+.container {
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+    background-color: forestgreen;
+}
+.title-from-form {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    top: 1px;
+    background-color: white;
+}
+.inputs {
+    border-radius: 20px;
+    border-color: #0039F5;
+
+}
+.div-from-separation {
+    margin-top: 13px;
+}
+
+.account {
+    display: inline-block;
+    margin-right: 3px;
+}
+.sex {
+    display: inline-block;
+    margin-right: 3px;
+}
+input {
+    padding-left: 14px;
+}
+button {
+   display: inline;
+   margin-top: 8px;
+}
+.button-sub:hover {
+    background-color: #FA8E0A;
+    cursor: pointer;
+    border: none;
+
+
+}
+.button-reset:hover {
+    background-color: #FA8E0A;
+    cursor: pointer;
+    border: none;
+
+}
